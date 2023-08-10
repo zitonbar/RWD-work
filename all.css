@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;400&display=swap');
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h1 a {
+    /* display: block; */
+    background-image: url(images/logo.png);
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 170px;
+    height: 36px;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.top {
+    padding: 12px 12px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+}
+.link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link li {
+    margin: 0 10px;
+}
+.facebook, .twitter {
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+.nav {
+    display: flex;
+}
+@media (max-width: 768px){
+    .nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+.nav li {
+    margin: 0 12px;
+    max-width: 80px;
+    text-align: center;
+}
+@media (max-width: 320px){
+    .nav li {
+        margin: 0;
+    }
+}
+.nav a {
+    font-weight: 400;
+    color: #00cc99;
+    transition: border-bottom 0.8s ease;
+    border-bottom: 3px solid transparent;
+}
+.nav a:hover {
+    border-bottom: 3px solid #00cc99;
+}
+.course {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+@media (max-width: 768px){
+    .course {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+.course-item {
+    width: 30.33333%;
+    padding: 20px;
+    box-shadow: 1px 1px 3px gray;
+}
+@media (max-width: 768px){
+    .course-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.course-item h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.course-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+.course-item{
+    text-align: center;
+}
+.course-item p {
+    text-align: left;
+}
+
+/* 992 768 375 320 */
