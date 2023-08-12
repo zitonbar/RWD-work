@@ -44,6 +44,12 @@ h1 a {
     display: flex;
     align-items: center;
 }
+.facebook {
+    color: #4460a0;
+}
+.twitter {
+    color: #00aaec;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -129,7 +135,6 @@ h1 a {
 .course-item h2 {
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
     margin-bottom: 20px;
 }
 .course-item ul {
